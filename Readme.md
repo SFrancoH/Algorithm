@@ -17,3 +17,5 @@ The file structure is as follows:
   - **Python**
   - ...
 --------------------------------------------------------------------------------------------------------------
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SFrancoH&exclude_repo=SFrancoH&layout=compact&theme=radical)
