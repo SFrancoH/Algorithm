@@ -8,7 +8,7 @@ Withdrawal Operation:
 
 If the entered amount is less than or equal to 1000, the ATM will proceed with the withdrawal.
 The program should calculate the maximum possible number of 50-unit bills, followed by 20-unit bills, 
-and finally 10-unit bills to complete the requested amount. If the amount cannot be exactly broken down using
+and finally 10-unit bills and finally 100-unit bills to complete the requested amount. If the amount cannot be exactly broken down using
 these denominations, the program should display an error message. Withdrawal Conditions:
 
 The amount must be a multiple of 10 (since the smallest bill available is 10).
@@ -27,10 +27,11 @@ int main() {
         scanf("%d",&num);
         
         if(num <=1000 && num%10 == 0){
-            
-            printf("Cantidad de bielletes de $50.000: %d \n",num/50); num%=50;
-            printf("Cantidad de bielletes de $20.000: %d \n",num/20); num%=20;
-            printf("Cantidad de bielletes de $10.000: %d \n",num/10);
+
+            printf("the amount of $100,000 bills are: %d \n",num/50); num%=100;
+            printf("the amount of $50,000 bills are: %d \n",num/50); num%=50;
+            printf("the amount of $20,000 bills are: %d \n",num/20); num%=20;
+            printf("the amount of $10,000 bills are: %d \n",num/10);
 
 
         }else{
