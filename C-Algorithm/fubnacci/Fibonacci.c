@@ -33,7 +33,7 @@ int main() {
     char exit = 'Y';    
 
     while (exit == 'Y'){
-
+        
         int a=0,b=1,num,aux;
         
         printf("Enter a numner: ");
