@@ -28,7 +28,7 @@ int main() {
         
         if(num <=1000 && num%10 == 0){
 
-            printf("the amount of $100,000 bills are: %d \n",num/50); num%=100;
+            printf("the amount of $100,000 bills are: %d \n",num/100); num%=100;
             printf("the amount of $50,000 bills are: %d \n",num/50); num%=50;
             printf("the amount of $20,000 bills are: %d \n",num/20); num%=20;
             printf("the amount of $10,000 bills are: %d \n",num/10);
